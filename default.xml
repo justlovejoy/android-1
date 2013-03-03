@@ -21,6 +21,9 @@
 
   <remote  name="kejar31"
            fetch="git://github.com/kejar31/" />
+           
+  <remote  name="jlj"
+           fetch="git://github.com/TeamVectorSigma" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -49,6 +52,7 @@
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="cr" revision="jb2" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="cr" revision="jb2" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cr" revision="jb2" />
+  <project path="device/samsung/d710" name="android_device_samsung_d710" remote="jlj" revision="jbjoy" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="cr" revision="jb2" />
   <project path="device/samsung/infuse4g" name="android_device_samsung_infuse4g" remote="cr" revision="jb2" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cr" revision="jb2" />
@@ -278,6 +282,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cr" revision="jb2" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="jlj" revision="cm-10.1" />
   <project path="libcore" name="android_libcore" remote="cr" revision="jb2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -378,6 +383,7 @@
   <project path="vendor/lge" name="android_vendor_lge" remote="cr" revision="jb2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.1" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="cr" revision="jb2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
